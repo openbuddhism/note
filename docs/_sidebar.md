@@ -2,4 +2,4 @@
 * [Home](/)
 * [Guide](guide.md)
 * [Quick Start](quick_start.md)
-* [Sutta](Sutta.md)
+* [Sutta](sutta.md)
