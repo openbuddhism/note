@@ -14,7 +14,7 @@ details {
     padding-top: 3px;
 }
 details > ul {
-    list-style: ;
+    list-style: decimal;
 }
 details summary::-webkit-details-marker {
     display:none;
