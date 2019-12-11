@@ -12,6 +12,18 @@
 </head>
 <body>
   <div id="app"></div>
+  \\ Markdown-it V10.0
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/10.0.0/markdown-it.min.js" integrity="sha256-YASERpEeN8gRNr/Fy4Km34WGFqIq1h6HkJMAQnVHlhk=" crossorigin="anonymous"></script>
+
+\\ Markdown-It-Attrs for Markdown-it
+<script src="https://wzrd.in/standalone/markdown-it-attrs@latest" charset="utf-8"></script>
+
+\\ Markdown-It-Footnote for Markdown-it
+<script src="https://wzrd.in/standalone/markdown-it-footnote@latest" charset="utf-8"></script>
+
+\\ Markdown-It-Task-List for Markdown-it
+<script src="https://wzrd.in/standalone/markdown-it-task-list@latest" charset="utf-8"></script>
+
   <script>
     window.$docsify = {
       // logo: '/_media/logo-small.png',
@@ -40,6 +52,21 @@
       tabs: {
         theme      : 'material',
       },
+      plugins:[
+            function (hook,vm) {
+                hook.beforeEach(function (html) {
+                    var md = window.markdownit();
+
+                    md.use(markdownItAttrs, {
+                        // optional, these are default options
+                        leftDelimiter: '{',
+                        rightDelimiter: '}',
+                        allowedAttributes: []  // empty array = all attributes are allowed
+                    }).use(markdownitFootnote).use(markdownItTaskList);
+                    return md.render(html);
+                });
+            }
+            ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
