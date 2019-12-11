@@ -1,0 +1,45 @@
+details {
+    position: fixed;
+    bottom: 0;
+    transition: none;
+    z-index: 10;
+    outline:none;
+    max-height: 300px;
+    overflow: scroll;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding: 10px 10px;
+    padding-right: 25px;
+    padding-top: 3px;
+}
+details > ul {
+    list-style: ;
+}
+details summary::-webkit-details-marker {
+    display:none;
+}
+details summary::before {
+    content: "\f0f6";  /* fa-file-text-o:before */
+    font-family: FontAwesome;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    border-bottom: 0;
+    position: fixed;
+    right: 0;
+    text-decoration: none;
+    bottom: 0;
+    z-index: 1;
+    margin: 25px 15px;
+}
+pre {
+    z-index: 9;
+}
+.sidebar-toggle {
+    z-index: 10;
+}
+section.cover.show {
+    z-index: 1;
+}
