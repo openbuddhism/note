@@ -2,10 +2,40 @@
 
 Thank you for choosing **Typora**. This document will help you to start Typora.
 
-[TOC]
+## modal
 
-<details>
-<summary></summary>
+### modal-1
+
+<!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+
+<!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open">Open short contents Modal</a></p>
+
+
+---
+
+### modal-2
+
+```
+<dl><a href="#footnote1" rel="modal:open"></a></dl>
+<!-- Modal HTML embedded directly into document -->
+
+<div id="footnote1" class="modal">
+... contents ...
+</div>
+```
+render modal icon:
+screen right bottom corner 
+
+<i class="fa fa-file-text-o fa-2x" aria-hidden="true" style="color: #42b983;"></i>
+
+<dl><a href="#footnote1" rel="modal:open"></a></dl>
+<!-- Modal HTML embedded directly into document -->
+<dl id="footnote1" class="modal">
 
 * 대자재천:Maheśvara-deva, 마혜수라(摩醯首羅) 천왕이라고 음역하기도 한다. 힌두교 최고신의 하나로 śiva 신을 말한다. 불교에서는 색계(色界)의 정상인 색구경천에 머물고 있다고 해석함
 * 위뉴천:힌두교의 비슈누(Viṣṇu)신(神). 우주 창조의 Brahma신. 우주 파괴의 śiva신과 함께 가장 널리 예배되는 신. 불교에서는 욕계(欲界)의 정상에 있는 신(神)일 뿐이라고 해석한다.
@@ -23,9 +53,15 @@ Thank you for choosing **Typora**. This document will help you to start Typora.
 * 위뉴천:힌두교의 비슈누(Viṣṇu)신(神). 우주 창조의 Brahma신. 우주 파괴의 śiva신과 함께 가장 널리 예배되는 신. 불교에서는 욕계(欲界)의 정상에 있는 신(神)일 뿐이라고 해석한다.
 * 대자재천:Maheśvara-deva, 마혜수라(摩醯首羅) 천왕이라고 음역하기도 한다. 힌두교 최고신의 하나로 śiva 신을 말한다. 불교에서는 색계(色界)의 정상인 색구경천에 머물고 있다고 해석함
 * 위뉴천:힌두교의 비슈누(Viṣṇu)신(神). 우주 창조의 Brahma신. 우주 파괴의 śiva신과 함께 가장 널리 예배되는 신. 불교에서는 욕계(欲界)의 정상에 있는 신(神)일 뿐이라고 해석한다.
-</details>
+
+<a href="#" rel="modal:close">Close</a>
+</dl>
+
+---
+
 
 ## Live Preview
+
 
 **Typora** use the feature: *Live Preview*, meaning that you could see these inline styles after you finish typing, and see block styles when you type or after you press `Enter` key or focus to another paragraph. Just try to type some markdown in typora, and you would see how it works.
 

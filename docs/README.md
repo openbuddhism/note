@@ -151,12 +151,7 @@ USA
 
 <!-- [filename](sutta.md ':include :type=code') -->
 
-<dl>
-  <dt>Coffee</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
-</dl>
+
 
 ## 내부 헤더라인 링크
 ```
