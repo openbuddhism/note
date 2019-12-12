@@ -2,12 +2,17 @@
 
 Thank you for choosing **Typora**. This document will help you to start Typora.
 
-
-## Modal-foonote
+## 각주
 
 ```
+<!-- 본문 -->
+만물이 대자재천(大自在天)[^1]에서 생긴다고 말하는 사람들이 있고
+
+this[^2] is footnote
+
+<!-- 각주 만들기 -->
 <!-- 버튼 -->
-<dl><a href="#footnote1" rel="modal:open"></a></dl>
+<dl><a href="#footnote" rel="modal:open"></a></dl>
 <!-- 각주 내용 -->
 <dl id="footnote" class="modal">
 
@@ -18,16 +23,18 @@ Thank you for choosing **Typora**. This document will help you to start Typora.
 </a>
 </dl>
 ```
-render modal icon:
-screen right bottom corner 
+render :
 
-<i class="fa fa-file-text-o fa-2x" aria-hidden="true" style="color: #42b983;"></i>
-
-txet:
 <!-- 문서 -->
-<p>This is <sup>superscripted</sup> text.</p>
+- 본문
 
-만물이 대자재천(大自在天)<sup>1</sup>에서 생긴다고 말하는 사람들이 있고, 위뉴천(韋紐天)**에서 생긴다는 말도 있고, 화합(和合)으로부터 생긴다는 말도 있고, 시(時)에서 생간다는 말도 있고, 세성(世性)에서 생긴다는 말도 있고 변화(變化)에서 생긴다는 말도 있고, 자연(自然)에서 생긴다는 말도 있고 미진(微塵)에서 생긴다는 말도 있다. 이런 잘못으로 무인론(無因論), 그릇된 인과론(因果論),',
+만물이 대자재천(大自在天)[^1]에서 생긴다고 말하는 사람들이 있고
+
+this[^2] is footnote
+
+- 각주 : 오른쪽 하단 아이콘 " <i class="fa fa-file-text-o fa-2x" aria-hidden="true" style="color: #42b983;"></i> " 을 클릭하거나 본문 각주 번호 클릭
+
+
 
 <!-- 버튼 -->
 <dl><a href="#footnote" rel="modal:open"></a></dl>

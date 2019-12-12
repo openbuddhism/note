@@ -17,6 +17,23 @@ Tathāgatena vutta: S.V.420, S56:11
 **[번역]**  초전법륜경
 
 
+<!-- 각주 만들기 -->
+<!-- 버튼 -->
+<dl><a href="#footnote" rel="modal:open"></a></dl>
+<!-- 각주 내용 -->
+<dl id="footnote" class="modal">
+
+[^1]:Dhamma(m.드물게nt.<√dhṛ)법,진리,이론(法) | √Dhṛ   쥐다,지탱하다,유지하다
+[^2]:Cakka   nt   (수레의)바퀴, 네바퀴(輪)
+[^3]:Pa    indecl   1.앞으로,앞으로 나아가는(멈춰있다가 처음굴리는 初,初轉法輪의 初字에 해당 ) 2.현저하게, 평범하지않게
+[^4]:Vattana   nt    fr. Vattati  구름(轉),구르고 일어남(轉起),움직임(moving on),유지,지속,실재 | Vattati(√vṛt)   움직이다,계속하다,진행하다 | √vṛt   돌다,향하다,취급하다,시작하다,종사하다,사용하다 | Vatta(pp.of vattati)  한것,계속하는 것,의무 | Vatta+ana=vattana(taddhita nāma,제2명사)
+[^5]:Sutta   n.(sk.sūtra  √sīv) 修多羅,契經,經 | √sīv  눕히다
+
+<a href="#" rel="modal:close">
+<i class="fa fa-times-circle fa-2x" aria-hidden="true" ></i>
+</a>
+</dl>
+
 
 ## 1.
 
