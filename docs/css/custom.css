@@ -6,9 +6,23 @@ dl {
     border-radius: 10px;
     margin-top: 50px !important;
 }
+.modal > ul::before {
+    content: "각주";
+    margin-bottom: 20px !important;
+    font-size: 18px;
+    font-weight: 600;
+}
 .modal > ul {
     list-style: inside decimal;
     padding-left: 0;
+}
+.modal > ul > li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.modal > a{
+    text-decoration: none !important;
+    color: #42b983;
 }
 dl > a::before {
     content: "\f0f6";  /* fa-file-text-o:before */
@@ -25,10 +39,6 @@ dl > a::before {
     z-index: 10;
     margin: 20px 15px;
     color: #42b983;
-}
-.modal a.close-modal{
-    top: 1.5px !important;
-    right: 1.5px !important;
 }
 pre {
     z-index: 9;

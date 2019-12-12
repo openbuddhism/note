@@ -2,40 +2,37 @@
 
 Thank you for choosing **Typora**. This document will help you to start Typora.
 
-## modal
 
-### modal-1
-
-<!-- Modal HTML embedded directly into document -->
-<div id="ex1" class="modal">
-  <p>Thanks for clicking. That felt good.</p>
-  <a href="#" rel="modal:close">Close</a>
-</div>
-
-<!-- Link to open the modal -->
-<p><a href="#ex1" rel="modal:open">Open short contents Modal</a></p>
-
-
----
-
-### modal-2
+## Modal-foonote
 
 ```
+<!-- 버튼 -->
 <dl><a href="#footnote1" rel="modal:open"></a></dl>
-<!-- Modal HTML embedded directly into document -->
+<!-- 각주 내용 -->
+<dl id="footnote" class="modal">
 
-<div id="footnote1" class="modal">
 ... contents ...
-</div>
+
+<a href="#" rel="modal:close">
+<i class="fa fa-times-circle fa-2x" aria-hidden="true" ></i>
+</a>
+</dl>
 ```
 render modal icon:
 screen right bottom corner 
 
 <i class="fa fa-file-text-o fa-2x" aria-hidden="true" style="color: #42b983;"></i>
 
-<dl><a href="#footnote1" rel="modal:open"></a></dl>
-<!-- Modal HTML embedded directly into document -->
-<dl id="footnote1" class="modal">
+txet:
+<!-- 문서 -->
+<p>This is <sup>superscripted</sup> text.</p>
+
+만물이 대자재천(大自在天)<sup>1</sup>에서 생긴다고 말하는 사람들이 있고, 위뉴천(韋紐天)**에서 생긴다는 말도 있고, 화합(和合)으로부터 생긴다는 말도 있고, 시(時)에서 생간다는 말도 있고, 세성(世性)에서 생긴다는 말도 있고 변화(變化)에서 생긴다는 말도 있고, 자연(自然)에서 생긴다는 말도 있고 미진(微塵)에서 생긴다는 말도 있다. 이런 잘못으로 무인론(無因論), 그릇된 인과론(因果論),',
+
+<!-- 버튼 -->
+<dl><a href="#footnote" rel="modal:open"></a></dl>
+<!-- 각주 내용 -->
+<dl id="footnote" class="modal">
 
 * 대자재천:Maheśvara-deva, 마혜수라(摩醯首羅) 천왕이라고 음역하기도 한다. 힌두교 최고신의 하나로 śiva 신을 말한다. 불교에서는 색계(色界)의 정상인 색구경천에 머물고 있다고 해석함
 * 위뉴천:힌두교의 비슈누(Viṣṇu)신(神). 우주 창조의 Brahma신. 우주 파괴의 śiva신과 함께 가장 널리 예배되는 신. 불교에서는 욕계(欲界)의 정상에 있는 신(神)일 뿐이라고 해석한다.
@@ -54,7 +51,9 @@ screen right bottom corner
 * 대자재천:Maheśvara-deva, 마혜수라(摩醯首羅) 천왕이라고 음역하기도 한다. 힌두교 최고신의 하나로 śiva 신을 말한다. 불교에서는 색계(色界)의 정상인 색구경천에 머물고 있다고 해석함
 * 위뉴천:힌두교의 비슈누(Viṣṇu)신(神). 우주 창조의 Brahma신. 우주 파괴의 śiva신과 함께 가장 널리 예배되는 신. 불교에서는 욕계(欲界)의 정상에 있는 신(神)일 뿐이라고 해석한다.
 
-<a href="#" rel="modal:close">Close</a>
+<a href="#" rel="modal:close">
+<i class="fa fa-times-circle fa-2x" aria-hidden="true" ></i>
+</a>
 </dl>
 
 ---
@@ -187,3 +186,15 @@ We opened a Github issue page in case you want to start a discussion or as an al
           },
 
 ```
+
+
+### modal-1nomal
+
+<!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+
+<!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open">Open short contents Modal</a></p>
