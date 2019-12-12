@@ -17,15 +17,14 @@ function makeFootnote() {
       output_data = inputEl.replace(/[[\[]{1}[\^](\d*)[\]]+/g, 
       '<sup><a href="#footnote" rel="modal:open">$1</a></sup>');
       // console.log("no.2 : " + output_data);
-      
       return output_data;
       }
 };
 
 window.onload = function() { makeFootnote(); };
 
-let last_known_scroll_position = 0;
-let ticking = false;
+// let last_known_scroll_position = 0;
+// let ticking = false;
     
 // window.addEventListener('scroll', function(e) {
 //       last_known_scroll_position = window.scrollY;
@@ -47,17 +46,9 @@ window.addEventListener('hashchange', function(event) {
       });
 });
 
-// function locationHashChanged() {
-//       if (location.hash === '#somecoolfeature') {
-//           makeFootnote();
-//       }
-//     }
-    
-// window.addEventListener('hashchange', locationHashChanged);
-
 // Dhamma<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote-1">1</a></sup>
 
-{/* 
+/* 
 <div class="footnote">
 <hr />
 <ol>
@@ -67,4 +58,4 @@ window.addEventListener('hashchange', function(event) {
 </li>
 </ol>
 </div> 
-*/}
+*/
