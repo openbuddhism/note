@@ -1,7 +1,7 @@
-* _welcome_
+* __welcome__
 * [Home](/)
 * [Guide](guide.md)
 
-* _papers_
+* __papers__
 * [Quick Start](paper/quick_start.md)
 * [Sutta](paper/sutta.md)
