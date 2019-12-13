@@ -4,11 +4,10 @@
 
 > LET WISDOM BE THE ONLY CURE
 
-Beyond the simple disclosure of Buddhist knowledge.
+- Beyond the simple disclosure of Buddhist knowledge
 
-
-[GitHub](https://github.com/openbuddhism/)
-[Get Started](#)
+[GitHub](https://github.com/openbuddhism)
+[Get Started](guide)
 
 <!-- background image -->
 
