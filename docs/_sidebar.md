@@ -1,5 +1,7 @@
-* __Getting started__
+* _welcome_
 * [Home](/)
 * [Guide](guide.md)
-* [Quick Start](quick_start.md)
-* [Sutta](sutta.md)
+
+* _papers_
+* [Quick Start](papre/quick_start.md)
+* [Sutta](paper/sutta.md)

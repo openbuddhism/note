@@ -2,14 +2,13 @@
 
 # Open Buddhism <small>1.1</small>
 
-> A magical documentation site generator.
+> LET WISDOM BE THE ONLY CURE
 
-- Simple and lightweight (~21kB gzipped)
-- No statically built html files
-- Multiple themes
+Beyond the simple disclosure of Buddhist knowledge.
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+
+[GitHub](https://github.com/openbuddhism/)
+[Get Started](#)
 
 <!-- background image -->
 
