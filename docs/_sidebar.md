@@ -3,5 +3,5 @@
 * [Guide](guide.md)
 
 * _papers_
-* [Quick Start](papre/quick_start.md)
+* [Quick Start](paper/quick_start.md)
 * [Sutta](paper/sutta.md)
