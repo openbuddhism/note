@@ -48,9 +48,7 @@ pre {
     margin-left: 5px;
     margin-bottom: 5px;
 }
-section.cover.show {
-    z-index: 1;
-}
+
 .sidebar-toggle span {
     background-color: var(--theme-color,#42b983);
     display: block;
@@ -60,4 +58,7 @@ section.cover.show {
 }
 .app-nav {
     z-index: 1 !important;
+}
+.sidebar ul {
+    margin-bottom: 20px;
 }
