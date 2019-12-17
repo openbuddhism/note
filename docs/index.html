@@ -2,54 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Open Buddhism</title>
+  <title>openbuddhism</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css"> -->
+  <link rel="stylesheet" href="css/vue.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="shortcut icon" href="_media/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script src="js/make_footnote.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
+      // logo: '/_media/logo-small.png',
       name: 'Open Buddhism',
-      repo: 'https://github.com/openbuddhism',
+      repo: 'https://github.com/openbuddhism/note',
       loadSidebar: true,
       subMaxLevel: 6,
+      // loadNavbar: true,
       coverpage: true,
       auto2top: true,
-      search: {
-          maxAge: 600000, 
-          paths: 'auto',
-          placeholder: 'Search',
-          depth: 6,
-      },
-      tabs: {
-          theme      : 'material',
+      copyCode: {
+      buttonText : 'Copy to clipboard',
+      errorText  : 'Error',
+      successText: 'Copied',
       },
       pagination: {
-          crossChapter: true,
+        crossChapter: true,
       },
-      plugins: [
-          function(hook) {
-            var footer = [
-              '<hr/>',
-              '<footer>',
-              '<span><a href="https://github.com/openbuddhism">Open Buddhism</a> &copy;2019.</span>',
-              '<span>published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
-              '</footer>'
-            ].join('');
-            hook.afterEach(function(html) {
-              return html + footer;
-            });
-          }
-        ],
+      // search config :
+      search: {
+        maxAge: 600000, // Expiration time, the default one day
+        paths: 'auto', // or 'auto'
+        placeholder: '검색',
+        depth: 6,
+        },
+      tabs: {
+        theme      : 'material',
+      },
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <!-- <script src="js/docsify@4.9.4.js"></script> -->
+  <script src="js/docsify@4.9.4-search.js"></script>
+  <!-- <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script> -->
+  <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+<script>
+  window.onload = function() { 
+    var a = document.querySelector(".emoji");
+        var b = a.parentNode
+        b.removeChild(a);
+        var c = b.querySelector(".emoji");
+        if (c != null) { 
+          b.removeChild(c);
+        }
+  };
+
+  window.addEventListener('hashchange', function(event) {
+      event.oldURL = '/';
+      window.requestAnimationFrame(function() {
+        var a = document.querySelector(".emoji");
+        var b = a.parentNode
+        b.removeChild(a);
+        var c = b.querySelector(".emoji");
+        if (c != null) { 
+          b.removeChild(c);
+        }
+        
+      });
+});
+
+
+</script>
 </body>
 </html>
