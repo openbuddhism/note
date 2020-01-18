@@ -1,7 +1,8 @@
 - __welcome__
   - [Home](/)
-  - [Guide](guide.md)
+  <!-- - [Guide](guide.md) -->
 
 - __papers__
-  - [Test](paper/test.md)
-  - [docsify](paper/docsify/docsify-docs.md)
+  - [중관학](paper/중관학/중관학-챗팅앱.md)
+  <!-- - [Test](paper/test.md) -->
+  <!-- - [Docsify](paper/docsify/docsify-docs.md) -->
